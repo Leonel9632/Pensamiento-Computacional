@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main ()
+{
+cout<<"valores:";
+float lado,base;
+int x;
+cin>>lado>>base;
+cout<<"Menu"<<endl;
+cout<<"1 cuadrado:"<<endl;
+cout<<"2 triangulo"<<endl;
+cout<<"3 rectangulo:"<<endl;
+cout<<"4 salir"<<endl;
+cin>>x;
+switch (x){
+case 1:cout<<lado*lado;
+break;
+case 2:cout<<(lado*base)/2;
+break;
+case 3:cout<<lado*base;
+break;
+
+default:cout<<"finish";
+}
+}
