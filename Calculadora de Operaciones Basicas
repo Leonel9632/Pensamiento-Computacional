@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int main ()
-{
+int main (){
 cout<<"valores:";
 int a,b,x;
 cin>>a>>b;
@@ -26,9 +25,6 @@ case 4:cout<<a/b;
 break;
 case 5:cout<<pow(a,b);
 break;
-
-
 default:cout<<"finish";
-
 }
 }
