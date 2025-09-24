@@ -12,7 +12,7 @@ cout<<"2 resta"<<endl;
 cout<<"3 multiplicacion"<<endl;
 cout<<"4 division"<<endl;
 cout<<"5 potencia"<<endl;
-cout<<"6 salir<<endl;
+cout<<"6 salir"<<endl;
 cin>>x;
 switch (x){
 case 1:cout<<a+b;
